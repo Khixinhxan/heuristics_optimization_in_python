@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 def plot_landscape(B):
     x = np.linspace(B[0][0], B[0][1], 30)
     y = np.linspace(B[1][0], B[1][1], 30)
